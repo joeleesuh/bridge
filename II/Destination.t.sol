@@ -10,7 +10,7 @@ contract MToken is ERC20 {
 		_mint(msg.sender, supply );
 	}
 }
-
+ 
 contract DestinationTest is Test {
     Destination public destination;
 
